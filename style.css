@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+#main {
+
+    background-color: rgb(173, 136, 207);
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    flex-wrap: wrap;
+}
+
+.note {
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: wheat;
+}
+
+.note .toolbar {
+    width: 100%;
+    background-color: rgb(175, 166, 166);
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.toolbar button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 6px;
+    cursor: pointer;
+}
